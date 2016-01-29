@@ -1,0 +1,416 @@
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>github</title>
+	<style>
+		body{
+			margin:0px;
+			padding:0px;
+			font-family: "Arial";
+		}
+		h1,h2,h3,h4,h5,h5{
+			margin:0;
+		}
+		#daohang{
+			width:100%;
+			height:30px;
+			/*border: 1px solid black;*/
+			padding-top: 15px;
+			padding-bottom: 15px;
+			background: #f5f5f5;
+		}
+		#dhcenter{
+			width:1000px;
+			height: 28px;
+			/*border: 1px solid black;*/
+			margin:0 auto;
+		}
+		#gittu{
+			width: 110px;
+			height: 28px;
+			/*border: 1px solid black;*/
+			margin:0 5px;
+		}
+		.dhang{
+			float: left;
+		}
+		#search{
+			width: 360px;
+			height: 28px;
+			/*border: 1px solid #ccc;*/
+			background: #fff;
+			color: #333;
+			padding: 3px 5px;
+			font-size: 12px;
+			line-height: 28px;
+		}
+		.dhpiao{
+			font-size: 13px;
+			color: #333;
+			float: left;
+			width: 70px;
+			line-height: 28px;
+			margin-top: -10px;
+		}
+		#liebiao{
+			width: 340px;
+			height: 34px;
+			/*border:1px solid black;*/
+			margin-left: 5px;
+		}
+		.sign{
+			width: 50px;
+			height: 22px;
+			border: 1px solid #ccc;
+			padding:5px 12px;
+			margin-left: 5px;
+			font-size: 13px;
+			line-height: 20px;
+			border-radius: 3px;
+		}
+		.up{
+			color: #fff;
+			background: #60b044;
+			border-color: #5ca941;
+		}
+		.in{
+			color:#333;
+			background: #eee;
+			border-color: #d5d5d5;
+		}
+		#denglu{
+			width:100%;
+			height:310px;
+			/*border: 1px solid black;*/
+			background: #202021;
+			padding: 80px 0;
+			background-image: url("./img/denglu.png");
+		}
+		#dlcenter{
+			width:1000px;
+			height: 310px;
+			/*border: 1px solid black;*/
+			margin:0 auto;
+		}
+		#zuo{
+			width: 645px;
+			height:280px;
+			/*border:1px solid red;*/
+		}
+		#you{
+			width:330px;
+			height:280px;
+			/*border:1px solid red;*/
+			padding-left: 20px;
+		}
+		.piao{
+			float: left;
+		}
+		.heading{
+			color:#fff;
+			font-size: 70px;
+			margin-bottom: 15px;
+		}
+		.subhead{
+			font-size: 21px;
+			color: #fff;
+			margin-top: 40px;
+		}
+		.you{
+			width: 330px;
+			height: 44px;
+			padding: 10px;
+			/*border: 1px solid #fff;*/
+			font-size: 16px;
+			line-height: 24px;
+			border-radius: 5px;
+			background: #fafafa;
+			color: #aab1c5;
+			margin-bottom: 10px;
+		}
+		.sup{
+			text-align: center;
+			color: #fff;
+			background: #60b044;
+			border-color: #5ca941;
+		}
+		#san{
+			width:100%;
+			height:280px;
+			/*border: 1px solid black;*/
+			padding-top: 80px;
+			
+			background: #4c3b74;
+		}
+		#scenter{
+			width:1000px;
+			height: 280px;
+			/*border: 1px solid black;*/
+			margin:0 auto;
+			
+		}
+		.sone{
+			width: 1000px;
+			height: 46px;
+			font-size:42px;
+			color: #fff;
+			text-align: center;
+
+		}
+		.stwo{
+			width: 340px;
+			height: 20px;
+			padding: 12px 60px;
+			margin-top: 15px;
+			margin-bottom: 20px;
+			margin-left: auto;
+			margin-right: auto;
+			font-size: 18px;
+			border-radius: 6px;
+			color: #fff;
+			background: #1d6ac8;
+			line-height: 20px;
+		}
+		.sth{
+			width: 1000px;
+			height: 130px;
+			/*border:1px solid black;*/
+			margin:40px auto 0;
+			border-radius: 5px;
+		}
+		#si{
+			width: 100%;
+			height: 630px;
+			/*border: 1px solid black;*/
+			padding-top: 80px;
+			padding-bottom: 80px;
+		}
+		#sicenter{
+			width: 1000px;
+			height: 640px;
+			/*border: 1px solid black;*/
+			margin:0 auto;
+		}
+		.sih{
+			text-align: center;
+		}
+		.sip{
+			text-align: center;
+			font-size: 20px;
+			color: #767682;
+		}
+		
+		.si{
+			width:450px;
+			height: 200px;
+			padding: 20px 25px 40px;
+			/*border: 1px solid black;*/
+			float: left;
+			text-align: center;
+			color: #5a5a5a;
+		}
+		.sp{
+			font-size: 14px;
+		}
+		#wu{
+			width: 100%;
+			height: 800px;
+			border: 1px solid #54799c;
+			padding-top: 80px;
+			padding-bottom: 80px;
+		}
+		#wcenter{
+			width: 1000px;
+			height: 800px;
+			/*border: 1px solid black;*/
+			margin:0 auto;
+		}
+		.wuh{
+			text-align: center;
+		}
+		.wup{
+			text-align: center;
+			font-size: 16px;
+			color: #767682;
+		}
+		.i{
+			margin-top: 45px;
+			font-size: 21px;
+		}
+		.wtwo{
+			width: 245px;
+			height: 20px;
+			padding: 12px 20px;
+			margin-top: 15px;
+			margin-left: auto;
+			margin-right: auto;
+			font-size: 18px;
+			border-radius: 6px;
+			color: #fff;
+			background: #60b044;
+			line-height: 20px;
+		}
+		.wth{
+			width:980px;
+			height:535px;
+			margin-left: 10px;
+			margin-top: 40px;
+			margin-bottom: 40px;
+		}
+		#last{
+			width: 1000px;
+			height:100px;
+			margin:82px auto 0;
+			background: #ffffff;
+		}
+		.new{
+			font-size: 13px;
+			color: #767676;
+			margin-top: 20px;
+		}
+		#content{
+			width: 1000px;
+			height: 30px;
+			/*border: 1px solid black;*/
+			margin:auto 0;
+			margin-top: 135px;
+		}
+		#content ul li{
+			float: left;
+			font-size: 12px;
+			color: #4078c0;
+			text-align: center;
+			margin-right: 15px;
+			margin-top: -5px;
+		}
+		.l{
+			float: left;
+		}
+		.zuo{
+			width: 450px;
+			height: 30px;
+		}
+		.zhong{
+			width: 100px;
+			height: 30px;
+			margin-right: 70px;
+		}
+		.hou{
+			width: 380px;
+			height: 30px;
+
+		}
+	</style>
+</head>
+<body>
+	<div id="" class=""></div>
+	<div id="daohang" class="">
+		<div id="dhcenter" class="">
+			<div id="gittu" class="dhang"><img src="./img/github.png"/></div>
+			<!--<div id="search" class="dhang">Search GitHub</div>-->
+			<input type="text" id="search" class="dhang" placeholder="Search GitHub">
+			<div id="liebiao" class="dhang">
+				<ul>
+					<li class="dhpiao">Explore</li>
+					<li class="dhpiao">Features</li>
+					<li class="dhpiao">Enterprise</li>
+					<li class="dhpiao">Blog</li>
+				</ul>
+			</div>
+			<div id="" class="dhang sign up">Sign up</div>
+			<div id="" class="dhang sign in">Sign in</div>
+		</div>
+	</div>
+	<div id="denglu" class="">
+		<div id="dlcenter" class="">
+			<div id="zuo"class="piao">
+				<h1 class="heading">Build software </br>better, together.</h1>
+				<p class="subhead">Powerful collaboration, code review, and code management for </br>open source and private projects. Need private repositories? </br><a href="plans">Upgraded plans start at $7/mo.</a></p>
+			</div>
+			<div id="you" class="piao">
+				<input type="text" class="you" placeholder="Pick a username">
+				<input type="email" class="you" placeholder="Your email">
+				<input type="password" class="you" placeholder="Create a password">
+				<!--<div ></div>-->
+				<!--<div class="you"></div>-->
+				<!--<div class="you">Create a password</div>-->
+				<p class="new">Use at least one lowercase letter, one numeral, and seven characters.</p>
+				<div class="you sup">Sign up for GitHub</div>
+				<p class="new">By clicking "Sign up for GitHub", you agree to our </br><a href="service">terms of service</a> and <a href="policy">privacy policy</a>. We will send you </br>account related emails occasionally.</p>
+			</div>
+	    </div>
+    </div>
+	<div id="san" class="">
+		<div id="scenter" class="">
+			<div id="" class="sone">Want to use GitHub on your servers?</div>
+			<div id="" class="stwo">Learn more about GitHub Enterprise.</div>
+			<div id="" class="sth"><img src="./img/san.png"/></div>
+		</div>
+		
+	</div>
+	<div id="si" class="">
+		<div id="sicenter" class="">
+			<h1 class="sih">Why you’ll love GitHub.</h1>
+			<p class="sip"><a href="kdfj">Powerful features</a> to make software development more collaborative.</p>
+			<div id="" class="si">
+				<img src="./img/one.png"/>
+				<h3>Great collaboration starts with communication.</h3>
+				<p class="sp">Review changes, comment on lines of code, report issues, and </br>plan the future of your project with discussion tools.</p>
+			</div>
+			<div id="" class="si">
+				<img src="./img/er.png"/>
+				<h3>Friction-less development across teams.</h3>
+				<p class="sp">Work with project collaborators or teams of people in </br>organization accounts to communicate with ease.</p>
+			</div>
+			<div id="" class="si">
+				<img src="./img/ssan.png"/>
+				<h3>World’s largest open source community.</h3>
+				<p class="sp">Share your projects with the world, get feedback, and contribute </br>to millions of repositories hosted on GitHub.</p>
+			</div>
+			<div id="" class="si">
+				<img src="./img/si.png"/>
+				<h3>Do more with powerful integrations.</h3>
+				<p class="sp">Discover applications and tools that integrate with GitHub to </br>help you and your team build software better, together.</p>
+			</div>
+		</div>
+	</div>
+	<div id="wu" class="">
+		<div id="wcenter" class="">
+			<h1 class="wuh">The easiest way to use GitHub on Windows</h1>
+			<div id="" class="wtwo">Downloa GitHub for Windows</div>
+			<p class="wup">For Windows Vista, 7, 8, & 8.1 · <a href="sdsd">Learn more</a></p>
+			<div id="" class="wth"><img src="./img/wu.png"/></div>
+			<p class="wup i">You can also use <a href="ass">GitHub on Mac.</a></p>
+	</div>
+	<div id="last" class="">
+		<div id="content">
+			<div class="l zuo">
+				<ul>
+					<li >@2015 GitHub.lnc.</li>
+					<li >Teams</li>
+					<li >Privacy</li>
+					<li >Security</li>
+					<li >Contact</li>
+					<li></li>
+				</ul>
+			</div>
+			
+			<div class="l zhong"><img src="./img/last.png"/>	</div>
+			
+			<div class="l hou">
+				<ul>
+					<li >Ststus</li>
+					<li >API</li>
+					<li >Traning</li>
+					<li >Shop</li>
+					<li >Blog</li>
+
+					<li >About</li>
+					<li >Help</li>
+				</ul>
+			</div>
+				
+		</div>
+	</div>
+</body>
+</html>
